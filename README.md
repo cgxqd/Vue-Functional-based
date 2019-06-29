@@ -1,4 +1,4 @@
-# tgest
+# Vue-Functional-based
 
 ## Project setup
 ```
