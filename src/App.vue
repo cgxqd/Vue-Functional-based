@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <setup></setup>
+    <router-view></router-view>
+    <!-- <setup name='vue function-based '></setup> -->
   </div>
 </template>
 
@@ -9,7 +10,7 @@
 export default {
   name: 'app',
   components: {
-    setup:()=>import('./components/setup.vue')
+    // setup:()=>import('./view/setup.vue')
   }
 }
 </script>

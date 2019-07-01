@@ -7,9 +7,18 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
     "core-js": "^2.6.5",
+    "utilscore": "^0.0.44",
     "vue": "^2.6.10",
-    "vue-function-api": "^2.0.6"
+    "vue-function-api": "^2.0.6",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
